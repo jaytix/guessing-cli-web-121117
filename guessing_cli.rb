@@ -7,7 +7,7 @@ def run_guessing_game
   run = gets.chomp
   #binding.pry
   if input == "exit"
-    exit
+    exitMethod
   elsif input.to_i == num
     correct
   else #input.to_i != num
@@ -23,6 +23,6 @@ def incorrect(num)
   puts "The computer guessed #{num}."
 end
 
-def exit
+def exitMethod
   puts "Goodbye!"
 end
