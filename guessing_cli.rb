@@ -7,7 +7,7 @@ def run_guessing_game
   #binding.pry
   while input == "exit"
     puts "Goodbye!"
-    break
+    return
   end
   run = gets.chomp
   #binding.pry
