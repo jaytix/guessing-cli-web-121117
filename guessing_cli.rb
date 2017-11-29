@@ -9,7 +9,7 @@ def run_guessing_game
     exit
   elsif input.to_i == num
     correct
-  else input.to_i != num
+  else #input.to_i != num
     incorrect(num)
   end
 end
