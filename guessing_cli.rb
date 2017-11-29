@@ -9,10 +9,8 @@ def run_guessing_game
     exit
   elsif input.to_i == num
     correct
-  elsif input.to_i != num
+  else input.to_i != num
     incorrect(num)
-  else
-    puts "Invalid input, please try again"
   end
 end
 
