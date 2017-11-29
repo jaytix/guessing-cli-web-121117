@@ -19,7 +19,7 @@ def correct
 end
 
 def incorrect(num)
-  puts "The computer guessed #{5}."
+  puts "The computer guessed #{num}."
 end
 
 def exit
