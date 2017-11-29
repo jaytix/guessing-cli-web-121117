@@ -5,12 +5,12 @@ def run_guessing_game
   puts "Guess a number between 1 and 6."
   input = gets.chomp
   #binding.pry
-  if input.to_i == num
+  if input == "exit"
+    exit
+  elsif input.to_i == num
     correct
   elsif input.to_i != num
     incorrect(num)
-  elsif input == "exit"
-    exit
   else
     puts "Invalid input, please try again"
   end
