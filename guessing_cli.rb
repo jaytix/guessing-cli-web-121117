@@ -26,5 +26,5 @@ def incorrect(num)
 end
 
 def exitMethod
-  puts "Goodbye!"
+  return "Goodbye!"
 end
