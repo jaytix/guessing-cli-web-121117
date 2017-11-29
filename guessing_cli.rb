@@ -28,5 +28,4 @@ end
 
 def exitMethod
   puts "Goodbye!"
-  break
 end
