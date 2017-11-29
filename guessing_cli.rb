@@ -6,7 +6,7 @@ def run_guessing_game
   input = gets.chomp
   if input == "exit"
     exitMethod
-  end  
+  end
   run = gets.chomp
   #binding.pry
   if input.to_i == num
