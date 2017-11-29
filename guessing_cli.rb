@@ -4,13 +4,11 @@ def run_guessing_game
   num = rand(1..6)
   puts "Guess a number between 1 and 6."
   input = gets.chomp
-  #binding.pry
   if input == "exit"
     puts "Goodbye!"
     return
   end
   run = gets.chomp
-  #binding.pry
   if input.to_i == num
     correct
   else #input.to_i != num
